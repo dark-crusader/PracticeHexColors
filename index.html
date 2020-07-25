@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="colorGame.css">
+
+    <title>Guess the color</title>
+</head>
+<body>
+
+    <h1>Guess the <br> <span id="dispColor"></span> <br> Color</h1>
+
+    <section id="stripe">
+        <button id="reset">New Colors</button>
+        <strong> <span id="message"></span> </strong>
+        <button id="easy">Easy</button>
+        <button id="hard" class="selected">Hard</button>
+    </section>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="colorGame.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 4rem;
+    padding: 1rem 0 1rem 0;
+}
+
+button {
+    background: none;
+    border: 0;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 0.1rem;
+    font-size: inherit;
+    transition: all 0.25s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+.square {
+    width: 30%;
+    background: aquamarine;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 0.4s;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    color: blueviolet;
+}
+
+#container {
+    height: 25rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+#stripe {
+    background: white;
+    height: 2rem;
+    text-align: center;
+}
+
+#dispColor {
+    font-size: 200%;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+
+  #container {
+    width: 95%;
+  }
+
+  #message {
+    width: 30%;
+  }
+
+  #dispColor {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #container {
+    width: 90%;
+  }
+
+  #dispColor {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
